@@ -1,0 +1,76 @@
+*{ 
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+.card{
+    max-width: 370px;
+    width: 100%;
+    height: 60vh;
+    /*background-color: white;*/
+    background:linear-gradient(rgb(85, 85, 236) 0% 27%,white 27% 100%);
+    padding: 25px;
+    border-radius: 24px;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.image{
+    position: relative;
+    margin-left: 25%;
+    margin-right: 30%;
+    height:150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: rgb(85, 85, 236);
+    padding: 3px;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+    
+}
+
+
+.card > text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    
+    padding: 5px;
+}
+
+
+.name{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 33%;
+    margin-right: 30%;
+    margin-top: 20%;
+    
+} 
+
+.position{
+    font-size: 1.5rem;
+    margin-left: 26%;
+    margin-right: 25%;
+    margin-top: 8%;
+}
+
+.about{
+    font-size: 1.5rem;
+    margin-left: 18%;
+    margin-right: 8%;
+    margin-top: 8%;
+}
